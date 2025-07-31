@@ -2,9 +2,7 @@
 import { useState } from "react";
 export default function TodoForm({ onAdd }) {
         const [ text , setText ] = useState("");
-        const handleAdd = (e)=>{
-
-        }
+       
     return(
 <div className="mb-6">
  <input  
